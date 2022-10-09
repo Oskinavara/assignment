@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/basiclightbox/dist/basicLightbox.min.css"
+    />
+  </head>
+  <body>
+    <div id="app">
+      <h2>Assignment 2</h2>
+      <div id="controls">
+        <input type="number" min="0" max="100" step="1" class="js-input" />
+        <button type="button" data-action="create">Utwórz</button>
+        <button type="button" data-action="destroy">Usuń</button>
+      </div>
+      <div id="boxes"></div>
+      <h2>Assignment 3</h2>
+      <form id="search-form">
+        <input
+          type="text"
+          name="query"
+          autocomplete="off"
+          placeholder="Search images..."
+          id="search-input"
+        />
+        <button type="button" id="search-button">Search</button>
+      </form>
+      <ul id="images-list"></ul>
+      <div id="bottom-line"></div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

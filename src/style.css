@@ -1,0 +1,25 @@
+#app {
+  text-align: center;
+}
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 40px 0 80px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+li {
+  padding: 4px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
